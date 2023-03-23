@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellow;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+}
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(69, 147, 216);
+    position: fixed;
+    bottom: 0;
+}
+.contenido{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    margin-bottom: 60px;
+}
