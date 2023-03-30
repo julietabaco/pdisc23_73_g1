@@ -1,27 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
 
 header {
-    background-color: yellow;
+    background-color: rgb(36, 36, 34);
     height: 80px;
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+header .marca{
+    font-size: 20px;
+    color: beige;
+}
+header .social{
+    font-size: 20pt;
+}
+.social a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: grey;
+}
+.social a:hover{
+    color:rgb(112, 8, 160);
+    text-shadow:  0 0 5px 2px rgb(232, 142, 255);
+
 }
 footer{
     height: 60px;
     width: 100%;
-    background-color: rgb(69, 147, 216);
+    background-color: rgb(34, 35, 36);
     position: fixed;
     bottom: 0;
+    color: rgb(200, 161, 212);
 }
 .contenido{
     height: 800px;
     width: 80%;
     margin: auto;
-    background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    background-color: #331555;
+    background-image: linear-gradient(90deg, #87129e 0%, #481358 55%, #af3eb9 100%);
     margin-bottom: 60px;
+}
+.card{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(36, 1, 56);
+    color: #b392b6;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative
+}
+.card .imagen{
+    width: 100%;
+    height: 50%;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+.card .titulo{
+    font-size: 18pt;
+    color: #4f2085;
+}
+.card .boton{
+    background-color: #5e0066;
+    padding: 10px 30px;
+    color: azure;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: lato;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 20px;
+}
+.card .boton:hover{
+    background-color: #b392b6;
+    color: #331555;
 }
