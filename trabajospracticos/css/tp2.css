@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: grey;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.portada{
+    position: relative;
+    color: white;
+    box-shadow: inset 0  0 100px black;
+    background-image: url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/12/27/1609/Hyatt-Centric-Las-Condes-Santiago-P057-Restaurant-Seating.jpg/Hyatt-Centric-Las-Condes-Santiago-P057-Restaurant-Seating.16x9.jpg);
+    background-color: rgb(101, 193, 247);
+    padding: 7%;
+    height: 350px;
+}
+.busqueda{
+    position: absolute;
+    bottom: -20px;
+    width: 85%;
+    height: 60px;
+    box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.568);
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow: hidden;
+}
+.busqueda .icono{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(39, 182, 170);
+    text-align: center;
+    line-height: 60px;
+}
+.icono.material-icons-outlined{
+    font-size: 25pt;
+}
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border: none;
+    outline: none ;
+    padding: 0 15px;
+    font-size: 12pt;
+}
+.busqueda input[type="search"] :focus{
+    font-size: 14pt;
+    transition: all 300ms ease;
+}
+.busqueda input[type="submit"]{
+    height: 100%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none ;
+
+}
+.busqueda input[type="submit"]:active{
+    font-size: 20px;
+
+}
+
+.menu{
+    background-color: rgb(241, 163, 45);
+    padding: 20px;
+}
+.producto{
+    background-color:rgb(46, 46, 46);
+    padding: 20px;
+}
