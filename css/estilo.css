@@ -50,10 +50,6 @@ header .social{
 }
 .card{
     flex: 0 0 300px;
-    /*flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 100px;
-    /*width: 30%;*/
     height: 500px;
     background-color: rgb(135, 0, 76);
     color: #ffffff;
