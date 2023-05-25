@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+}
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+header{
+    background-color: rgb(5, 131, 5);
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagen{
+    position: absolute;
+    background-color: blueviolet;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg');
+    bottom: -60px;
+    height: 200px;
+    width: 200px;
+    left: 170px;
+    border-radius: 50%;
+}
+.contenido{  
+    height: 100px;
+    position: relative;
+}
+.nameuser{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    top: 80px;
+    left: 28%;
+    color: rgb(3, 187, 3);
+}
+.mensaje{
+    position: absolute;
+    bottom: -60px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(106, 255, 47);
+}
+.imgcomentario{
+    position: relative;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg');
+    height: 70px;
+    width: 70px;
+    left: 20px;
+    top: 20px;
+    border-radius: 50%;
+}
+.headcomentario{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 390px;
+    height: 60px;
+    color: green;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.headcomentario h5{
+    color: rgb(33, 182, 3);
+}
+.valores{
+    position: absolute;
+    justify-items: start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    right: 15px;
+    top: 0;
+    color: rgb(35, 211, 0);
+    
+}
+.espacio{
+    padding-left: 4px;
+}
+.encuestion{
+    position: absolute;
+    width: 100%;
+    height: 43%;
+    top: 90px;
+    padding: 5px;
+    color: rgb(148, 255, 127);
+}
+.input{
+    display: flex;
+}
+.input input{
+    position: absolute;
+    width: 95%;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+.input input[type="submit"]{
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    border: none;
+    outline: none ;
+    display: flex;
+    right: 18px;
+    padding-left: 20px;
+    top:-35px;
+    color: green;
+
+}
+.nashe{
+    position: relative;
+    bottom: -68%;
+    height: 10px
+}
+.tarjetitas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mensajes{
+    position: relative;
+    padding-left: 20px;
+    display: flex;
+    flex: 0px 0 100px;
+}
+
+.comentario{
+    position: absolute;
+    width: 490px;
+    height: 250px;
+    bottom: -320px;
+    box-shadow: 0  0 50px rgba(0, 0, 0, 0.548);
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 90px;
+}
