@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
+.lato{
+    font-family: 'Lato', !important;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    margin: 0 5px;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+header .row{
+    color: white;
+    margin: 5px;
+    padding-top: 5px;
+}
+a:hover{
+    transition: 0.8s;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    text-shadow: 0 0 10px 10px rgb(255, 255, 255);
+}
+.contenido{
+    position: relative;
+}
+.cards{
+    overflow-y: scroll;
+    
+}
+.card{
+    
+    width: 95%;
+    height: 150px;
+    margin: 2.5%;
+    background-color: rgba(255, 255, 255, 0.136);
+}
+.imagen{
+    background-image: url('https://media.istockphoto.com/id/1393067608/photo/expressive-woman-dancing-in-yellow-flying-dress-happy-dark-skinned-dancer-in-waving-fabric.jpg?s=612x612&w=0&k=20&c=47qiEwg7ELyy50G5HQsp3p4EUrl8ilBib-TV2WaFBqs=');
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 40px 20px rgba(0, 0, 0, 0.147);
+}
+.imagen:hover{
+    transition: 0.5s;
+    box-shadow: none;
+}
+.col-10 h4{
+    font-size: 15pt;
+    padding-left: 55px;
+    color: rgb(255, 230, 0);
+
+}
+.col-10{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-10 p {
+    padding-left: 57px;
+    color: rgba(255, 255, 255, 0.558);
+}
+.cant{
+    position: absolute;
+    right: 10px;
+    bottom: -25px;
+}
+.material-symbols-outlined{
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    color: #f1f1f1;
+    bottom: 0;
+    
+}
+.boton{
+    position: absolute;
+    background-color: black;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(59, 59, 59);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.319);
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.boton:hover{
+    transition: 0.5s;
+    background-color: rgb(252, 252, 92);
+    color: white;
+    box-shadow: 0 0 15px 10px rgba(255, 255, 0, 0.349);
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
+.lato{
+    font-family: 'Lato', !important;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+.head{
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/1393067608/photo/expressive-woman-dancing-in-yellow-flying-dress-happy-dark-skinned-dancer-in-waving-fabric.jpg?s=612x612&w=0&k=20&c=47qiEwg7ELyy50G5HQsp3p4EUrl8ilBib-TV2WaFBqs=');
+    width: 100%;
+    height: 350px;
+    background-position: top;
+    box-shadow: inset 0 0 50px 70px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 30px 30px;
+}
+.head a{
+    color: white;
+    font-weight: 100;
+}
+.head .row .col-2{
+    padding-top: 10px;
+}
+.head a:hover{
+    transition: 0.4s;
+    font-weight: bold;
+    text-decoration: none;
+}
+.articulo{
+    margin: 10px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+}
+h5{
+    color: rgb(255, 209, 24);
+}
+.color{
+    color: wheat;
+    margin: 15px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.colores{
+    margin-top:10px ;
+}
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.5em;
+    accent-color: #ffff07;
+}
+.boton{
+    background-color: #f1f1f139;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 70%;
+    margin: 15%;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 242, 0);
+}
+.boton:hover{
+    transition: 0.8s;
+    background-color: rgb(253, 253, 72);
+    color: white;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.215);
+}
