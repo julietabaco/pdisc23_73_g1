@@ -1,0 +1,28 @@
+.sliderpromo{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    
+}
+.promo1, .promo2{
+    background-color:cornflowerblue;
+    height: 96%;
+    flex: 0 0 100%;
+    position: relative;
+    border-radius: 44px;
+    padding: 20px;
+
+}
+.detallepromo{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+.price{
+    font-size: 1,4em;
+}
+.op40{
+    opacity: 0.4;
+}

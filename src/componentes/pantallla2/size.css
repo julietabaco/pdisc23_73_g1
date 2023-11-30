@@ -1,0 +1,32 @@
+p{
+    padding-left: 30px;
+    padding: 7px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.size{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    margin-left: calc(50% - 150px);
+    & .pick{
+        color: white;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(55, 54, 54);
+        
+    }
+    & .pick:hover{
+        transition: 0.5s;
+        background-color: rgb(77, 77, 77);
+    } 
+
+    
+}

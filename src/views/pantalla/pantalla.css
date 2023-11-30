@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
+.lato{
+    font-family: 'Lato', !important;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw700{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: grey;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: rgb(40, 40, 40) !important;
+}
+.header{
+    position: relative;
+    background-image: url('https://i0.wp.com/elclosetdegiuliana.com/wp-content/uploads/2014/11/15396871716_0f7c848541_c.jpg?ssl=1');
+    width: 100%;
+    height: 350px;
+    background-position: top;
+    box-shadow: inset 0 0 50px 70px rgba(0, 0, 0, 0.255);
+    border-radius: 0px 0px 30px 30px;
+}
+.busqueda{
+    position: absolute;
+    top: 20px;
+    margin-left: 27px;
+    width: 85%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.386);
+    box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.568);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.busqueda input{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+.busqueda ::placeholder{
+    color: rgba(255, 255, 255, 0.553);
+}
+.busqueda .icono{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(39, 182, 170);
+    text-align: center;
+    line-height: 60px;
+}
+.icono.material-icons-outlined{
+    font-size: 25pt;
+}
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border: none;
+    outline: none ;
+    padding: 0 15px;
+    font-size: 12pt;
+}
+.busqueda input[type="search"] :focus{
+    font-size: 14pt;
+    transition: all 300ms ease;
+}
+.busqueda input[type="submit"]{
+    height: 100%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none ;
+
+}
+.busqueda input[type="submit"]:active{
+    font-size: 15px;
+    transition: 0.8s;
+}
+
+.texto{
+    position: absolute;
+    bottom: 0;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.texto h5{
+    color: rgba(255, 255, 255, 0.762);
+    font-size: 15px;
+}
+.texto h1{
+    color: rgb(255, 237, 155);
+    font-size: 30px;
+}
+.texto h3{
+    color: rgb(255, 217, 0);
+}
+.contenido{
+    margin: 10px;
+    color: #fff4bf;
+}
+.contenido h6{
+    color: rgb(255, 234, 0);
+    font-weight: 0, !important;
+}
+.menu{
+    background-color: rgb(241, 163, 45);
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.scroll ul{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll ;
+}
+.scroll ul li{
+    height: 90px;
+    flex: 0 0 100px;
+    height: 40px;
+    list-style: none;
+}
+.scroll .card{
+    position: relative;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.171);
+    width: 60px;
+    height: 150px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.267);
+}
+.scroll img{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: 0;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 50px 50px rgba(17, 17, 17, 0.845);
+}
+.txt{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 80px;
+    margin-bottom: 3px;
+}
+.txt .art{
+    font-size: 9pt;
+    color: rgba(255, 213, 0, 0.707);
+}
+.txt .precio{
+    font-weight: bold;
+    color: wheat;
+}
+.categorias .col-8{
+    color: wheat;
+    font-size: 13pt;
+}
+.categorias .col-4{
+    color: wheat;
+    font-weight: 100;
+    font-size: 12pt;
+    color: rgb(255, 234, 0);
+    font-weight: 0, !important;
+}
+.generos .mujer{
+    height: 70px;
+    width: 90%;
+    margin: 5%;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 5px;
+}
+.generos .hombre{
+    height: 70px;
+    width: 90%;
+    margin: 5%;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 5px;
+}
+.mujer .imagen{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-left: -10px;
+    border-radius: 50%;
+    background-position: top;
+    background-image: url('https://s3.amazonaws.com/prod-wp-tunota/wp-content/uploads/2022/12/Ropa-amarilla-para-cerrar-el-2022.jpg');
+}
+.generos .row{
+    margin: 0%;
+}
+.generos .sexo{
+    font-weight: bold;
+    font-size: 15pt;
+    color: #f1f1f1;
+}
+.generos .cant{
+    font-size: 10pt;
+}
+.generos .col-10{
+    padding-top: 6px;
+    margin: px;
+    padding-left: 35px;
+}
+.hombre .imagen{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-left: -10px;
+    border-radius: 50%;
+    background-position: top;
+    background-image: url('https://i.pinimg.com/550x/04/10/a8/0410a8661cd79f7278141427616c3da0.jpg');
+}

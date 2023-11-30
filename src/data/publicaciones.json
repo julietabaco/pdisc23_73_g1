@@ -1,0 +1,68 @@
+[
+    {"key": "001",
+    "nombre": "Estancia La Linda",
+    "localidad" : "Tortuguitas",
+    "direccion" : "Oliden 4540",
+    "telefono" : "11-1124-5543",
+    "redes" : ["lalindaeventos","@estancialalinda"],
+    "zona": "Gba Norte",
+    "descrip" : "Nuestra refinada cocina y atención personalizada hacen de Estancia.El Descanso un lugar diferente a todos, ideal para desconectarse del ritmo ciudadano con la posibilidad de trabajar o festejar en un ambiente bello y calmo.",
+    "urlfotoportada": "../src/assets/imgs/quintas/quinta_rosario.jfif",
+    "categoria" : "premium",
+    "descripext": "Si buscas diferenciarte al decidir por un evento social o empresarial, y querés que se distinga por su excelencia en el servicio Estancia La Linda es eso y mucho más… cada en la localidad de Tortuguitas a tan solo 20 minutos de capital y con fácil acceso. Al llegar quedaras impactado con su frondoso parque de 17.000 m2 y su casco estilo campo con capacidad para 200 invitados, (con la opción de anexar una carpa para más cantidad de invitados (250-350) siguiendo con el formato de la estancia),gran piscina con solárium y suite privada para novios. Sin olvidarnos de tu  tranquilidad, contamos con seguridad privada, estacionamiento dentro del predio y grupo electrógeno. Sí todavía te quedan dudas, vení e impactate conociéndola!!Estancia La Linda es el lugar donde cualquiera sea tu necesidad, te garantizamos, será superada."
+     
+  },
+  { "key": "002",
+    "nombre": "Janos Eventos",
+    "localidad" : "Del Viso",
+    "direccion" : "Avenida Madero 1455",
+    "telefono" : "11-4145-5993",
+    "redes" : ["JanosEventos","@Janos"],
+    "zona": "Gba Norte",
+    "descrip" : "Con nosotros, el único límite es tu imaginación y la fiesta la hacemos a tu medida. Salón para eventos Janos. Varios servicios. Todo lo que puedas necesitar! Egresados, Casamientos, Fiestas Empresariales",
+    "urlfotoportada": "https://github.com/Chazmann/portaleventos/blob/master/src/assets/imgs/quintas/janos.jpeg?raw=true",
+    "categoria" : "plata",
+    "descuento" : 10,
+    "descripext": "Si buscas diferenciarte al decidir por un evento social o empresarial, y querés que se distinga por su excelencia en el servicio Estancia La Linda es eso y mucho más… cada en la localidad de Tortuguitas a tan solo 20 minutos de capital y con fácil acceso. Al llegar quedaras impactado con su frondoso parque de 17.000 m2 y su casco estilo campo con capacidad para 200 invitados, (con la opción de anexar una carpa para más cantidad de invitados (250-350) siguiendo con el formato de la estancia),gran piscina con solárium y suite privada para novios. Sin olvidarnos de tu  tranquilidad, contamos con seguridad privada, estacionamiento dentro del predio y grupo electrógeno. Sí todavía te quedan dudas, vení e impactate conociéndola!!Estancia La Linda es el lugar donde cualquiera sea tu necesidad, te garantizamos, será superada."
+     
+  },
+  { "key": "003",
+    "nombre": "Dinastia",
+    "localidad" : "Tortuguitas",
+    "direccion" : "Luis Maria Drago 1455",
+    "telefono" : "11-6645-1293",
+    "redes" : ["DinastiaEventos","@DinastiaEventosJanos"],
+    "zona": "Gba Norte",
+    "descrip" : "Con nosotros, el único límite es tu imaginación y la fiesta la hacemos a tu medida. Salón para eventos Janos. Varios servicios. Todo lo que puedas necesitar! Egresados, Casamientos, Fiestas Empresariales",
+    "urlfotoportada": "https://github.com/Chazmann/portaleventos/blob/master/src/assets/imgs/quintas/dinastia.jpeg?raw=true",    "categoria" : "premium",
+    "descripext": "Si buscas diferenciarte al decidir por un evento social o empresarial, y querés que se distinga por su excelencia en el servicio Estancia La Linda es eso y mucho más… cada en la localidad de Tortuguitas a tan solo 20 minutos de capital y con fácil acceso. Al llegar quedaras impactado con su frondoso parque de 17.000 m2 y su casco estilo campo con capacidad para 200 invitados, (con la opción de anexar una carpa para más cantidad de invitados (250-350) siguiendo con el formato de la estancia),gran piscina con solárium y suite privada para novios. Sin olvidarnos de tu  tranquilidad, contamos con seguridad privada, estacionamiento dentro del predio y grupo electrógeno. Sí todavía te quedan dudas, vení e impactate conociéndola!!Estancia La Linda es el lugar donde cualquiera sea tu necesidad, te garantizamos, será superada."
+     
+  },
+  { "key": "004",
+    "nombre": "La Quinta Ruggeri",
+    "localidad" : "Fátima",
+    "direccion" : "Cramer 3344",
+    "telefono" : "11-6645-1293",
+    "redes" : ["Ruggeri Eventos","@RuggeriQuinta"],
+    "zona": "Gba Norte",
+    "descrip" : "Quinta Ruggeri, con nosotros, el único límite es tu imaginación y la fiesta la hacemos a tu medida. Salón para eventos Janos. Varios servicios. Todo lo que puedas necesitar! Egresados, Casamientos, Fiestas Empresariales",
+    "urlfotoportada": "https://github.com/Chazmann/portaleventos/blob/master/src/assets/imgs/quintas/ruggeri.jpg?raw=true",
+    "categoria" : "premium",
+    "descripext": "Si buscas diferenciarte al decidir por un evento social o empresarial, y querés que se distinga por su excelencia en el servicio Estancia La Linda es eso y mucho más… cada en la localidad de Tortuguitas a tan solo 20 minutos de capital y con fácil acceso. Al llegar quedaras impactado con su frondoso parque de 17.000 m2 y su casco estilo campo con capacidad para 200 invitados, (con la opción de anexar una carpa para más cantidad de invitados (250-350) siguiendo con el formato de la estancia),gran piscina con solárium y suite privada para novios. Sin olvidarnos de tu  tranquilidad, contamos con seguridad privada, estacionamiento dentro del predio y grupo electrógeno. Sí todavía te quedan dudas, vení e impactate conociéndola!!Estancia La Linda es el lugar donde cualquiera sea tu necesidad, te garantizamos, será superada."
+     
+  },
+  { "key": "005",
+    "nombre": "Pocho Eventos",
+    "localidad" : "Exaltación de la Cruz",
+    "direccion" : "Independiente 3344",
+    "telefono" : "11-6645-1293",
+    "redes" : ["Pocho Eventos","@pocho_ok"],
+    "zona": "Gba Norte",
+    "descrip" : "EVENTOS LAVEZZI, con nosotros, el único límite es tu imaginación y la fiesta la hacemos a tu medida. Salón para eventos Janos. Varios servicios. Todo lo que puedas necesitar! Egresados, Casamientos, Fiestas Empresariales",
+    "urlfotoportada": "https://github.com/Chazmann/portaleventos/blob/master/src/assets/imgs/quintas/pocho.jpeg?raw=true",
+    "categoria" : "plata",
+    "descripext": "Si buscas diferenciarte al decidir por un evento social o empresarial, y querés que se distinga por su excelencia en el servicio Estancia La Linda es eso y mucho más… cada en la localidad de Tortuguitas a tan solo 20 minutos de capital y con fácil acceso. Al llegar quedaras impactado con su frondoso parque de 17.000 m2 y su casco estilo campo con capacidad para 200 invitados, (con la opción de anexar una carpa para más cantidad de invitados (250-350) siguiendo con el formato de la estancia),gran piscina con solárium y suite privada para novios. Sin olvidarnos de tu  tranquilidad, contamos con seguridad privada, estacionamiento dentro del predio y grupo electrógeno. Sí todavía te quedan dudas, vení e impactate conociéndola!!Estancia La Linda es el lugar donde cualquiera sea tu necesidad, te garantizamos, será superada."
+     
+  }
+
+]

@@ -1,0 +1,27 @@
+.buscador{
+    position: absolute;
+    height: 50px;
+    width: calc(100% - 28px);
+    margin: 14px;
+    background-color: aqua;
+    display: flex;
+    overflow: hidden;
+    z-index: 10;
+    top: 14px;
+    border-radius: 14px;
+    align-items: center;
+}
+input[type=search]{
+    background-color: transparent;
+    outline: none;
+    height: 44px;
+    width: calc(100% - 44px);
+    border: none;
+}
+input[type=submit]{
+    height: 44px;
+    width: 44px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}   
